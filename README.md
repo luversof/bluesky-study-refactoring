@@ -62,3 +62,6 @@ pnpm run dev
 ```
 pnpm test
 ```
+
+4.4 테스트 추가하기
+
