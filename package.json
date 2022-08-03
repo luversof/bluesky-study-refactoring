@@ -7,9 +7,11 @@
 		"package": "svelte-kit package",
 		"preview": "vite preview",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"test": "playwright test"
 	},
 	"devDependencies": {
+		"@playwright/test": "^1.22.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"eslint": "^8.21.0",

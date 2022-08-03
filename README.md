@@ -53,3 +53,12 @@ pnpm run dev
 ## Chapter 04
 
 [4.2 테스트할 샘플 코드](http://127.0.0.1:5173/chapter_04)
+
+4.3 첫 번째 테스트
+
+책의 예제는 mocha로 테스트함.
+내 경우 playwright로 처리함.
+
+```
+pnpm test
+```
