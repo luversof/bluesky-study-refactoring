@@ -1,4 +1,4 @@
-// 6.1
+// 6.1 함수 추출하기
 function printOwing(invoice) {
 	printBanner();
 	let outstanding = calculateOutstanding();
