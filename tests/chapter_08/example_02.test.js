@@ -5,7 +5,7 @@ import { expect, test } from '@playwright/test';
 test.describe('chapter 08', async () => {
 	test('8.1 함수 옮기기 - 예시: 다른 클래스로 옮기기', async () => {
 		let account = new Account(/** 무슨 값을 넣어야 하나? */);
-		console.log('account.bankCharge : ', account.bankCharge);
-		//expect(account.bankCharge).toEqual(?);
+		//console.log('account.bankCharge : ', account.bankCharge);
+		expect(account.bankCharge).toEqual(4.5);
 	});
 });
