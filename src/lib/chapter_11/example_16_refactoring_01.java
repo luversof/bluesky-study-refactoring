@@ -1,4 +1,4 @@
-// 11.13 예뢰를 사전확인으로 바꾸기
+// 11.13 예외를 사전확인으로 바꾸기
 public class ResourcePool {
 
   public Resource get() {
